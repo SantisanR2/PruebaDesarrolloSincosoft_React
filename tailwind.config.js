@@ -6,5 +6,10 @@ module.exports = {
     extend: {},
   },
   plugins: [daisyui],
+  daisyui: {
+    styled: true,
+    themes: ['nord'],
+    rtl: false,
+  },
 }
 

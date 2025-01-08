@@ -60,7 +60,7 @@ function App() {
       window.location.reload();
     } catch (error) {
       console.error('Error al eliminar la tarea:', error);
-      toast.error('Ocurrió un error al eliminar la tarea');
+      toast.error('No se puede eliminar la tarea porque tiene subtareas asociadas');
     }
   };
 
